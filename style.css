@@ -56,9 +56,6 @@ section .navbar-dark .navbar-nav .nav-link {
 .navbar .navbar-nav{
 display: block;
 }
-body{
-  scroll-behavior: smooth;
-  }
 /* button-group hide */
 .hide{
 display: none;
@@ -70,7 +67,7 @@ display: none;
 /* Mobile version resizing */
 #title .container-fluid{
 position:relative;
-top:35px;
+top:70px;
 }
 
 }
