@@ -1,7 +1,7 @@
 function openNav() {
 // document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
 if ($(window).width() < 960) {
-  document.getElementById("mySidenav").style.width = "35%";
+  document.getElementById("mySidenav").style.width = "50%";
   document.getElementById("mySidenav").style.display="block";
 }
 else {
