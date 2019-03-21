@@ -231,8 +231,7 @@ background-color: transparent;
   z-index: 1;
   top: 0;
   left: 0;
-  /* background-image:url(images/fayans/fayans1.jpg); */
-background-color: #233142;
+  background-color: #233142;
   overflow-x: hidden;
   transition: 0.6s;
   padding-top: 60px;
@@ -243,25 +242,40 @@ background-color: #233142;
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   display: block;
   transition: 0.3s;
   padding-top: 20px;
   margin-top: 20px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+
+.icon-sidenav{
+  margin-right: 10px;
 }
 
 .sidenav a:hover {
   color: #fff;
 }
+.sidenav-img{
+width: 43%;
+top: 0;
+left: 25%;
+position:absolute;
+}
+.sidenav-hr{
+  position: sticky;
+  margin-top:16px;
+  background-color: grey;
+}
 
 .sidenav .closebtn {
   position: absolute;
-  top: 0;
-  margin-bottom: 10px;
-  right: 20px;
-  font-size: 36px;
-  margin-left: 50px;
+  bottom:89%;
+  right: 10px;
+  font-size: 32px;
 }
 
 .main{
@@ -276,5 +290,4 @@ background-color: #233142;
 }
 .x{
   color:white;
-  margin-right: 20px;
 }
