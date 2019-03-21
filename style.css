@@ -264,13 +264,12 @@ width: 43%;
 top: 0;
 left: 25%;
 position:absolute;
-  z-index:5;
+  z-index:-1;
 }
 .sidenav-hr{
   position: sticky;
   margin-top:16px;
   background-color: grey;
-  z-index:6;
 }
 
 .sidenav .closebtn {
