@@ -69,6 +69,9 @@ display: none;
 position:relative;
 top:80px;
 }
+  .sidenav-img{
+z-index: -1;
+}
 
 }
 /* Ipad-Pro hide */
@@ -264,7 +267,6 @@ width: 43%;
 top: 0;
 left: 25%;
 position:absolute;
-  z-index:-1;
 }
 .sidenav-hr{
   position: sticky;
