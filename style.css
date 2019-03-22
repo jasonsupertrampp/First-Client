@@ -69,6 +69,12 @@ display: none;
 position:relative;
 top:80px;
 }
+  .col-6{
+margin-bottom: 20px;
+}
+  #title{
+  padding: 5% 2% 10% 4%;
+}
   .sidenav-img{
 z-index: -1;
 }
