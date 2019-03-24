@@ -12,7 +12,9 @@ else {
   document.getElementById("mySidenav").style.display="block";
 }
 }
-
+document.querySelector(".trend").addEventListener("click",function(){
+closeNav()
+});
 
 function closeNav() {
 document.getElementById("mySidenav").style.width = "0";
