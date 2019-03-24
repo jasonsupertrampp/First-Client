@@ -12,9 +12,7 @@ else {
   document.getElementById("mySidenav").style.display="block";
 }
 }
-document.querySelector(".trend").addEventListener("click",function(){
-closeNav()
-});
+
 
 function closeNav() {
 document.getElementById("mySidenav").style.width = "0";
@@ -23,3 +21,25 @@ document.body.style.backgroundColor = "white";
   document.querySelector(".logo").style.visibility="inherit";
   document.querySelector(".navbar-toggler").style.visibility="inherit";
 }
+
+
+function toggleClose(){
+  var x=document.querySelector('.burger');
+  if(x.style.display ==="none"){
+    x.style.display="block";
+  }else{
+    x.style.display="none";
+  }
+}
+document.querySelector(".trend").addEventListener("touchstart",function(){
+closeNav()
+});
+document.querySelector(".page-footer").addEventListener("touchstart",function(){
+closeNav()
+});
+document.querySelector(".other-products").addEventListener("touchstart",function(){
+closeNav()
+});
+document.querySelector("#title").addEventListener("touchstart",function(){
+closeNav()
+});
