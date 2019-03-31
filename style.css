@@ -56,6 +56,12 @@ section .navbar-dark .navbar-nav .nav-link {
 .navbar .navbar-nav{
 display: block;
 }
+.sidenav-img{
+z-index: -1;
+}
+.col-6{
+margin-bottom: 20px;
+}
 /* button-group hide */
 .hide{
 display: none;
@@ -68,17 +74,11 @@ display: none;
 #title .container-fluid{
 position:relative;
 top:80px;
+
 }
-  .col-6{
-margin-bottom: 20px;
-}
-  #title{
+#title{
   padding: 5% 2% 10% 4%;
 }
-  .sidenav-img{
-z-index: -1;
-}
-
 }
 /* Ipad-Pro hide */
 @media (max-width:1025px ) and (min-width:1022px)  {
@@ -260,7 +260,6 @@ background-color: transparent;
   text-align: justify;
   letter-spacing: 2px;
 }
-
 .icon-sidenav{
   margin-right: 10px;
 }
@@ -273,16 +272,17 @@ width: 43%;
 top: 0;
 left: 25%;
 position:absolute;
+z-index: -1;
 }
 .sidenav-hr{
   position: sticky;
   margin-top:16px;
   background-color: grey;
 }
-
 .sidenav .closebtn {
   position: absolute;
   bottom:89%;
+  /* margin-bottom: 10px; */
   right: 10px;
   font-size: 32px;
 }
@@ -299,4 +299,11 @@ position:absolute;
 }
 .x{
   color:white;
+  /* margin-right: 20px; */
+}
+
+/* other-products */
+.other-cards:hover{
+  -webkit-transition: all 100ms ease-in;
+  transform: scale(1.04);
 }
