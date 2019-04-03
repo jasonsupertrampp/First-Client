@@ -6,9 +6,7 @@ scroll-behavior: smooth;
 body{
   margin:0;
   padding:0;
-  /* font-family: "Montserrat"; */
-  /* font-weight: 900; */
-  /* height: 100%; */
+
 }
 ul{
   list-style-type: none;
@@ -64,7 +62,6 @@ section .navbar-dark .navbar-nav .nav-link {
 .navbar .navbar-nav{
 display: block;
 }
-
 /* button-group hide */
 .hide{
 display: none;
@@ -82,6 +79,11 @@ top:65px;
  #products-section .container-fluid{
 
 padding: 28% 2% 5% 2% !important;
+}
+.daha-fazla{
+margin-top: 0 !important;
+  margin-left: auto;
+      margin-right: auto;
 }
 }
 /* Ipad-Pro hide */
@@ -204,4 +206,9 @@ p{
 
 .diger-animasyon{
   display: none;
+}
+.daha-fazla{
+  margin-top: 30px;
+  margin-left: auto;
+      margin-right: auto;
 }
