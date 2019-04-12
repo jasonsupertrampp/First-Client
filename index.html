@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
-  <link rel="stylesheet" href="style.css">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Mds Tasarim</title>
 </head>
@@ -36,7 +38,8 @@
     <a href="kitchen.html"><i class="icon-sidenav fas fa-door-open"></i>Panel Kapı</a>
     <a href="kitchen.html"><i class="icon-sidenav fas fa-tools"></i> Montaj</a>
     </div>
-      <span class="burger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <span class="burger" style="font-size:30px;cursor:pointer; color:white;  " onclick="openNav()">&#9776; </span>
+
     </div>
 
 
@@ -55,7 +58,7 @@
           <a class="nav-link"  href="#title">Anasayfa</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link"  href="#">Hakkımızda</a>
+          <a class="nav-link"  href="/hakkimizda.html">Hakkımızda</a>
         </li>
         <li class="nav-item">
           <a class="nav-link"  href="#hizmetlerimiz">Hizmetlerimiz</a>
@@ -139,7 +142,7 @@
       </div>
 
       <div class="carousel-item">
-        <img src="images/parke/parke2.png" class="w-75" id="something" alt="...">
+        <img src="images/parke/parke4.png" class="w-75" id="something" alt="...">
       </div>
       <div class="carousel-item">
         <img src="images/mutfak/mutfak3.png" class="w-75" id="something" alt="...">
@@ -159,7 +162,7 @@
   <div class="col-lg-4 ">
     <div class="first-content">
       <!-- Jumbotron -->
-  <div class="jumbotron"  id="jumbotrn">
+  <div class="jumbotron main-jumbo"  id="jumbotrn">
 
     <!-- Title -->
     <h2 data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">Material</h2>
@@ -183,7 +186,7 @@
 
 </div>
 </div>
-<a class="scroll-down" href="#trend-section"><span></span><span></span><span></span></a>
+<a class="scroll-down" href="#trend-text"><span></span><span></span><span></span></a>
 
 
 </section>
@@ -199,10 +202,10 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-4 text-center" data-aos="fade-down-right" data-aos-duration="900" data-aos-delay="400" >
-        <h1 > Trend Banyo</h1>
+        <h1 id="trend-text" > Trend Banyo</h1>
         <hr class="trend-hr">
-        <a class="btn" ><i class="fas fa-2x fa-chevron-circle-left"></i></a>
-        <a class="btn"  class="trend-button"><i class="fas fa-2x fa-chevron-circle-right"></i></a>
+        <!-- <a class="btn" ><i class="fas fa-2x fa-chevron-circle-left"></i></a> -->
+        <!-- <a class="btn"  class="trend-button"><i class="fas fa-2x fa-chevron-circle-right"></i></a> -->
         <!-- <button type="button" class="trend-button btn btn-light"><i class="fas fa-2x fa-chevron-circle-right" style="color:#a1dd70"></i></button> -->
       </div>
 
@@ -250,20 +253,20 @@
         <div class="col-md-6">
 
             <a href="images/mutfak/kitchen1.png" target="_blank">
-<img src="images/mutfak/kitchen1.png" class="w-100" alt="Responsive image" style="height:125%; padding-bottom:100px;" >
+<img src="images/mutfak/kitchen1.png" class="w-100" alt="Responsive image"  >
 </a>
 
       </div>
         <div class="col-md-5">
   <div class="card-body">
-    <h5 class="card-title" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300" >İşte teklifimiz..</h5>
-    <p class="card-text" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">Yeni banyo ve mutfak dolaplarınızın kaliteli dizayn ve kurulumu.</p>
+    <h5 class="card-title" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300" >İşte teklifimiz..</h5>
+    <p class="card-text" data-aos="fade-up" data-aos-duration="600" data-aos-delay="300">Yeni banyo ve mutfak dolaplarınızın kaliteli dizayn ve kurulumu.</p>
     <div class="row">
-      <div class="col-md-6" data-aos="fade-left" data-aos-duration="900" data-aos-delay="300">
+      <div class="col-md-6" data-aos="fade-up" data-aos-duration="900" data-aos-delay="300">
          <p><i class="far fa-2x fa-clock" ></i>  Zamanında teslim</p>
       <p><i class="far fa-2x fa-calendar-alt"></i> Esnek çalışma takvimi </p>
       </div>
-      <div class="col-md-6" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="300">
+      <div class="col-md-6" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="300">
         <p><i class="fas fa-2x fa-award"></i> Detaylı Tasarım</p>
         <p><i class="fas fa-2x fa-map-marker-alt"></i> Yerinde Ölçüm</p>
       </div>
@@ -274,7 +277,7 @@
 </div>
 </div>
 <a href="#title"><button type="button"  class="tab btn btn-dark btn-outline-light"><i class="fas fa-chevron-up"></i></button></a>
-<a class="scroll-down" href="#products-section"><span></span><span></span><span></span></a>
+<!-- <a class="scroll-down" href="#products-section"><span></span><span></span><span></span></a> -->
 </section>
 
 
@@ -290,12 +293,12 @@
 <div class="container-fluid">
     <div class="row">
       <div class="product-kategori col-lg-4 text-center" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
-        <h2> Diğer Ürünler</h1>
+        <h2> Diğer Ürünler</h2>
         <hr class="trend-hr">
         <!-- <button type="button" class="btn btn-light " ><i class="fas fa-2x fa-chevron-circle-left" style="color:#a1dd70"></i></button> -->
-        <a class="btn" href="#"><i class="fas fa-2x fa-chevron-circle-left"></i></a>
+        <!-- <a class="btn" href="#"><i class="fas fa-2x fa-chevron-circle-left"></i></a> -->
         <!-- <button type="button" class="trend-button btn btn-light"><i class="fas fa-2x fa-chevron-circle-right" style="color:#a1dd70"></i></button> -->
-        <a class="btn" href="#" class="trend-button"><i class="fas fa-2x fa-chevron-circle-right"></i></a>
+        <!-- <a class="btn" href="#" class="trend-button"><i class="fas fa-2x fa-chevron-circle-right"></i></a> -->
       </div>
       <div class="w-100"></div>
 <div class="col-sm-3 col-6" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="300">
@@ -323,7 +326,7 @@
   <div class="col-sm-3 col-6" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="700">
   <div class="other-cards card">
     <a href="kitchen.html">
-    <img class="card-img-top" src="images/parke/parke2.png" alt="Card image cap">
+    <img class="card-img-top" src="images/parke/parke4.png" alt="Card image cap">
     </a>
     <div class="card-body">
       <h5 class="card-title text-center">Parke</h5>
@@ -360,7 +363,7 @@
       <div class="row text-center text-md-left mt-3 pb-3">
 
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="500">
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3" >
           <h6 class="text-uppercase mb-4 font-weight-bold">Mds Tasarım</h6>
           <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
             adipisicing elit.</p>
@@ -370,7 +373,7 @@
         <hr class="w-100 clearfix d-md-none">
 
         <!-- Grid column -->
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="600">
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3" >
           <h6 class="mb-4 font-weight-bold">ÜRÜNLERİMİZ</h6>
           <p>
             <a href="#!">Hazır Mutfak</a>
@@ -390,7 +393,7 @@
         <hr class="w-100 clearfix d-md-none">
 
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="700">
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3" >
           <h6 class="text-uppercase mb-4 font-weight-bold">Menü</h6>
           <p>
             <a href="#title">Anasayfa</a>
@@ -413,33 +416,35 @@
         <hr class="w-100 clearfix d-md-none" >
 
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" id="iletisim" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="900">
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3" id="iletisim" >
           <h6 class="mb-4 font-weight-bold" >İLETİŞİM</h6>
           <p>
             <i class="fas fa-home mr-3"></i>Karşıyaka/İzmir,Turkey </p>
+
+
           <p>
-            <i class="fas fa-envelope mr-3" data-aos="zoom-out-up"></i> info@mdstasarim.com</p>
+            <i class="fas fa-envelope mr-3" ></i> <a href="mailto:info@mdstasarim.com">info@mdstasarim.com</a></p>
           <p>
-            <i class="fas fa-phone mr-3" data-aos="zoom-out-up"></i> +90 541 230 03 60</p>
+            <i class="fas fa-phone mr-3" ></i><a href="tel:905412300360">+90 541 230 03 60</a></p>
         <!-- social-media -->
-            <ul class="list-unstyled list-inline" >
+            <ul class="list-unstyled list-inline" data-aos="zoom-in-up" data-aos-duration="500" >
               <li class="list-inline-item">
-                <a class="btn-floating btn-sm rgba-white-slight mx-1" target="_blank" href="https://www.facebook.com/yasin.dagdelen.14">
+                <a class="btn-floating btn-sm rgba-white-slight mx-1" target="_blank" href="https://www.facebook.com/yasin.dagdelen.14" >
                   <i class="fab fa-2x fa-facebook-f"></i>
                 </a>
               </li>
-              <li class="list-inline-item" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="900">
+              <li class="list-inline-item" data-aos="zoom-in-up" data-aos-duration="700" >
                 <a class="btn-floating btn-sm rgba-white-slight mx-1" target="_blank" href="https://twitter.com/yasindagdelen1">
                   <i class="fab fa-2x fa-twitter"></i>
                 </a>
               </li>
-              <li class="list-inline-item" data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="1100">
+              <li class="list-inline-item" data-aos="zoom-in-up" data-aos-duration="900" >
                 <a class="btn-floating btn-sm rgba-white-slight mx-1" target="_blank" href="https://instagram.com/yasindgdln">
                 <i class="fab fa-2x fa-instagram"></i>
                 </a>
               </li>
 
-              <li class="list-inline-item"  data-aos="zoom-in-up" data-aos-duration="600" data-aos-delay="1300">
+              <li class="list-inline-item"  data-aos="zoom-in-up" data-aos-duration="1100" >
                 <a  href="https://api.whatsapp.com/send?phone=905456752434&text= Merhaba , Ürünleriniz hakkında bilgi almak istiyorum." target="_blank"  class="btn-floating btn-sm rgba-white-slight mx-1">
                   <i class="fab  fa-2x fa-whatsapp"></i>
                 </a>
@@ -457,7 +462,7 @@
       <div class="row d-flex align-items-center">
 
         <!-- Grid column -->
-        <div class="col-md-11 col-lg-11">
+        <div class="col-md-10 col-lg-10">
 
           <!--Copyright-->
           <p class="text-center text-md-auto">© 2019 Copyright MdsTasarım</p>
@@ -466,9 +471,9 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-1 col-lg-1 ml-lg-0">
+        <div class="col-md-2 col-lg-2 ml-lg-0">
           <!-- Social buttons -->
-<p>Jason-TechSide</p>
+          <a href="https://instagram.com/yasindgdln" target="_blank" style="color:white; opacity:0.5; text-decoration:none;">Jason-TechSide</p>
         </div>
         <!-- Grid column -->
     </div>
@@ -480,7 +485,7 @@
   <!-- Footer -->
 </section>
 
-<script src="jason.js"></script>
+<script src="js/jason.js"></script>
 
 <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
 

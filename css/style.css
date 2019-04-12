@@ -1,0 +1,310 @@
+html {
+/* height: 100%; */
+scroll-behavior: smooth;
+
+}
+
+body{
+  margin:0;
+  padding:0;
+
+}
+section {
+  position: relative;
+  /* width: 100%;
+  height: 100%; */
+}
+/* h1, h2, h3, h4, h5{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 1rem;
+  color:black;
+} */
+p{
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: black;
+}
+/* navbar */
+.top-menu{
+  transition: top 0.5s;
+  top: -50px;
+  background-color:#233142;
+  opacity: 0.87;
+  font-size: large;
+}
+/* Brand-logo */
+.logo{
+  display:inline-flex;
+  margin-left: 10px;
+  height:60px;
+  width: 70px;
+}
+/* hamburger mobile border yok etmek için */
+.container-fluid .navbar .navbar-toggler{
+  border-color: transparent;
+}
+/* navbar itemlerini override etmek için kullandım*/
+section .navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+
+/* mobile-tablet */
+@media (max-width: 900px){
+.navbar .navbar-nav{
+display: block;
+}
+.sidenav-img{
+z-index: -1;
+}
+.col-6{
+margin-bottom: 20px;
+}
+/* button-group hide */
+.hide{
+display: none;
+}
+.main-jumbo{
+  top:-30px !important;
+  right:0px !important;
+}
+/* animation and tab hide */
+.tab,.scroll-down{
+  visibility: hidden;
+}
+/* Mobile version resizing */
+#title .container-fluid{
+position:relative;
+top:80px;
+
+}
+#title{
+  padding: 5% 2% 10% 4%;
+}
+}
+/* Ipad-Pro hide */
+@media (max-width:1025px ) and (min-width:1022px)  {
+  .hide{
+  display: none;
+  }
+  .tab,.scroll-down{
+    visibility: hidden;
+  }
+
+}
+
+
+.container-fluid{
+  padding: 8% 15%;
+}
+#title .container-fluid{
+padding: 8% 4% 5%;
+}
+#title{
+  color:#010101;
+  text-align: center;
+  z-index: 2;
+}
+.colored-section{
+  background: rgb(255,206,206);
+background: linear-gradient(90deg, #98ccd3 38%, rgba(243,248,255,1) 38%);
+    /* background: url(https://picsum.photos/1200/800?image=1037) center center / cover no-repeat; */
+}
+
+/* Trend Section */
+#trend-section{
+   /* background: url(https://picsum.photos/1200/800?image=675) center center / cover no-repeat; */
+background: rgba(243,248,255,1);
+
+/* background: rgb(255,255,255); */
+/* background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%); */
+}
+
+#trend-section .container-fluid{
+  padding: 4% 4% 5%;
+
+}
+
+
+#products-section{
+ /* background: url(https://picsum.photos/1200/800?image=1050) center center / cover no-repeat; */
+ /* background: rgb(255,206,206); */
+background: linear-gradient(90deg, #98ccd3 38%, rgba(243,248,255,1) 38%);
+}
+
+#products-section .container-fluid{
+   padding: 8% 10%;
+}
+
+.product-kategori{
+  padding-bottom: 3%;
+}
+
+
+
+
+
+
+
+/* First Section Scroll */
+
+ .colored-section .scroll-down {position: absolute;top:90%;left: 50%;z-index: 2; display: inline-block;-webkit-transform: translate(0, -50%);
+transform: translate(0, -50%);color: #fff;text-decoration: none; transition: opacity .3s;}
+ .colored-section scroll-down:hover {opacity: .5;}
+ #title .scroll-down span {position: absolute; top: 0;left: 50%;width:17px;height:17px;margin-left: -12px; border-left: 1px solid black;
+   border-bottom: 1px solid black;-webkit-transform: rotate(-45deg);transform: rotate(-45deg);
+   -webkit-animation: sdb07 2s infinite;animation: sdb07 2s infinite;opacity: 0; box-sizing: border-box;}
+ #title .scroll-down span:nth-of-type(1) {-webkit-animation-delay: 0s;animation-delay: 0s;}
+ #title .scroll-down span:nth-of-type(2) {top: 16px; -webkit-animation-delay: .15s; animation-delay: .15s;}
+ #title .scroll-down span:nth-of-type(3) {top: 32px;-webkit-animation-delay: .3s; animation-delay: .3s;
+ } @-webkit-keyframes sdb07 {0% { opacity: 0;}50% { opacity: 1;} 100% { opacity: 0;} }
+ @keyframes sdb07 {0%{opacity: 0;}50%{opacity:1;}100%{opacity: 0;}}
+
+/* Second Section scroll */
+   .trend .scroll-down { position: absolute; top:90%;left: 50%;z-index: 2;
+     display: inline-block;-webkit-transform: translate(0, -50%); transform: translate(0, -50%);color: #fff; text-decoration: none; transition: opacity .3s;}
+   .trend scroll-down:hover {opacity: .5;}
+   #trend-section .scroll-down span { position: absolute; top: 0;left: 50%;width:17px;height:17px;margin-left: -12px; border-left: 1px solid black; border-bottom: 1px solid black;
+     -webkit-transform: rotate(-45deg);transform: rotate(-45deg); -webkit-animation: sdb07 2s infinite;animation: sdb07 2s infinite;opacity: 0;box-sizing: border-box;}
+   #trend-section .scroll-down span:nth-of-type(1) {-webkit-animation-delay: 0s;animation-delay: 0s;}
+   #trend-section .scroll-down span:nth-of-type(2) {top: 16px; -webkit-animation-delay: .15s; animation-delay: .15s;}
+   #trend-section .scroll-down span:nth-of-type(3) {top: 32px;-webkit-animation-delay: .3s;animation-delay: .3s;
+  }
+
+
+
+  .tab{
+    position: relative;
+    right:1%;
+    bottom:10%;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.4;
+  }
+  .tab:hover{
+    opacity: 1;
+  }
+
+.footer{
+  padding: 5% 15%;
+  font-family:Ariel;
+  background-color: black;
+}
+
+
+/* ------------------------------------------------------------ */
+/* Jumbotron */
+.first-content .jumbotron {
+background-color: transparent;
+}
+.main-jumbo{
+  top:40px;
+  position: relative;
+  right: 50px;
+}
+/* trend-buton */
+.trend-button{
+  margin-left:7%;
+}
+.trend-hr{
+  border:1px solid #444444;
+  width: 55%;
+}
+
+
+/* footer-section */
+/* .info{
+  color:white;
+  letter-spacing: 0.1rem;
+}
+.info-2{
+  color:blue;
+} */
+
+.page-footer{
+  background-color: #233142;
+  color:white;
+}
+.btn-floating{
+  color:white;
+}
+
+
+/* NAVBAR HAMBURGER SLİDE */
+.sidenav {
+  display:none;
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #233142;
+  overflow-x: hidden;
+  transition: 0.6s;
+  padding-top: 60px;
+
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: justify;
+  letter-spacing: 2px;
+}
+.icon-sidenav{
+  margin-right: 10px;
+}
+
+.sidenav a:hover {
+  color: #fff;
+}
+.sidenav-img{
+width: 43%;
+top: 0;
+left: 25%;
+position:absolute;
+z-index: -1;
+}
+.sidenav-hr{
+  position: sticky;
+  margin-top:16px;
+  background-color: grey;
+}
+.sidenav .closebtn {
+  position: absolute;
+  bottom:89%;
+  /* margin-bottom: 10px; */
+  right: 10px;
+  font-size: 32px;
+}
+
+.main{
+  transition: margin-left .6s;
+  /* padding: 16px; */
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+}
+.x{
+  color:white;
+  /* margin-right: 20px; */
+}
+
+/* other-products */
+.other-cards:hover{
+  -webkit-transition: all 100ms ease-in;
+  transform: scale(1.04);
+}
