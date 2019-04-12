@@ -175,13 +175,12 @@ and (max-device-width : 1024px) {
   }
   .other-card{
     width: 130px !important;
-    
+
     left: 50px;
     position: relative;
     bottom:40px;
     margin: 0;
   }
-
   .pers img{
     width: 250px;
   }
